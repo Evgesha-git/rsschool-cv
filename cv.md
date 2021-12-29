@@ -15,4 +15,7 @@
 
 ||
 | :- |
-|<p>**My skills**</p><p>HTML, CSS, JS</p>|
+## ***My skills***
+- HTML, 
+- CSS, 
+- JS
