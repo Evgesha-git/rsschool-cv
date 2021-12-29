@@ -1,6 +1,6 @@
 # My CV
 
-|<p>**Yauheni**  **Kryzh**</p><p>MGKE</p>||
+|<p>**Yauheni**  **Kryzh**</p>|<p>MGKE</p>|
 | :- | :- |
 |||
 
