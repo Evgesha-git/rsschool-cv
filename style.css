@@ -10,3 +10,21 @@ h1{
 h1:hover{
     border-left: 4px solid rgb(211, 211, 211);
 }
+
+.tab{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab:hover{
+    border-left: 4px solid rgb(211, 211, 211);
+}
+
+.tab > div{
+    font-size: 20px;
+    height: 60px;
+    color: rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
