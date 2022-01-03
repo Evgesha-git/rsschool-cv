@@ -1,13 +1,14 @@
 body{
     background: rgb(27, 27, 27);
     color: rgb(211, 211, 211);
+    font-size: 20px;
 }
 
-h1{
+.cv{
     border-bottom: 1px solid rgb(211, 211, 211);
 }
 
-h1:hover, .tab:hover, table:hover{
+.cv:hover, .tab:hover, table:hover, .resume:hover, .scill:hover, ul:hover{
     border-left: 4px solid rgb(211, 211, 211);
 }
 
@@ -19,7 +20,6 @@ h1:hover, .tab:hover, table:hover{
 }
 
 .tab > div{
-    font-size: 20px;
     height: 60px;
     border-bottom: 1px solid rgb(211, 211, 211);
 }
@@ -37,3 +37,18 @@ table tr th:first-child{
     text-align: right;
 }
 
+.resume{
+    padding: 10px 0;
+}
+
+.resume h1{
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.resume p{
+    font-style: italic;
+}
+
+.scill{
+    font-style: italic;
+}
