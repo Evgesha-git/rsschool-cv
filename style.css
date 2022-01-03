@@ -1,13 +1,13 @@
 body{
     background: rgb(27, 27, 27);
+    color: rgb(211, 211, 211);
 }
 
 h1{
-    color: rgb(211, 211, 211);
     border-bottom: 1px solid rgb(211, 211, 211);
 }
 
-h1:hover{
+h1:hover, .tab:hover, table:hover{
     border-left: 4px solid rgb(211, 211, 211);
 }
 
@@ -18,13 +18,22 @@ h1:hover{
     justify-content: space-between;
 }
 
-.tab:hover{
-    border-left: 4px solid rgb(211, 211, 211);
-}
-
 .tab > div{
     font-size: 20px;
     height: 60px;
-    color: rgb(211, 211, 211);
     border-bottom: 1px solid rgb(211, 211, 211);
 }
+
+table tr td, th{
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 40px;
+}
+
+table tr:last-child td{
+    border-bottom: none;
+}
+
+table tr th:first-child{
+    text-align: right;
+}
+
