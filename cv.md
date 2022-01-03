@@ -13,8 +13,7 @@
 | :- |
 |<p>**Professional resume**</p><p>I try to work at the ratode with high quality and conscientiousness.</p>|
 
-||
-| :- |
+
 ## ***My skills***
 - HTML, 
 - CSS, 
