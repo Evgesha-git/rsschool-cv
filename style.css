@@ -1,0 +1,98 @@
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+header, main, footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cv{
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li:hover{
+    border-left: 4px solid rgb(211, 211, 211);
+}
+
+.cv:hover, .tab:hover, table:hover, .resume:hover, .scill:hover, .s:hover{
+    border-left: 4px solid rgb(211, 211, 211);
+}
+
+.tab{
+    width: 377px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab > div{
+    height: 60px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.tab > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ava{
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+table tr td, th{
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 40px;
+}
+
+table tr:last-child td{
+    border-bottom: none;
+}
+
+table tr th:first-child{
+    text-align: right;
+}
+
+.resume{
+    padding: 10px 0;
+}
+
+.resume h1{
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div:first-child{
+    display: flex;
+    align-items: center;
+}
+
+footer div:last-child{
+    width: 120px;
+}
